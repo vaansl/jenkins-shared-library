@@ -3,8 +3,8 @@
 pipeline {
     agent any
     tools {
-        maven 'maven3.9.14'  // Use the Maven tool installed earlier
-        jdk 'java17'        // Use JDK 17
+        maven 'maven3.9.16'  // Use the Maven tool installed earlier
+        jdk 'java21'        // Use JDK 17
     }
     stages {
         stage('Checkout') {
